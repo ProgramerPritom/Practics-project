@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+}
+.icon-header{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.email-part{
+    display: flex;
+}
+.email-part div{
+    padding-left: 25px;
+    font-size: 20px;
+}
+.email-part i{
+    font-size: 22px;
+    position: relative;
+    left: 21px;
+    color: #25c75b;
+}
+#email-icon{
+    color: rgb(209, 74, 33);
+}
+.icon-part{
+    
+    float: right;
+    margin-left: 600px;
+    
+}
+.icon-part i{
+    padding-left: 15px;
+    font-size: 28px;
+    color: #FF6347;
+    cursor: pointer;
+}
+/* logo section */
+
+.logo-section{
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.logo{
+        /* display: inline; */
+        font-size: 30px;
+        /* float: left; */
+        position: relative;
+        margin-left: 30px;
+        text-transform: uppercase;
+        top: 10px;
+        color: #FF6347;
+        font-weight: bold;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    float: left;
+    left: 750px;
+    /* right: -37px; */
+    top: -43px;
+    font-size: 25px;
+    /* border-bottom: 4px solid blue; */
+    margin-left: 10px;
+    padding: 5px 15px;
+    color: #FF6347;
+    font-weight: 700;
+}
+.menu li:hover{
+    color: rgb(54, 174, 204);
+    border-bottom: 2px solid rgb(79, 104, 173);
+    transition: .5s ease-in-out;
+    
+    
+}
+.header-text{
+    margin-left: 25px;
+}
+.header-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.header-text span{
+    color: #FF6347;
+}
+
+.header-text p ,h3{
+    color: rgb(238, 225, 225);
+}
+.header-text p{
+    width: 50%;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.button-link{
+    text-decoration: none;
+    border: 3px solid tomato;
+    padding: 8px 17px;
+    background-color: tomato;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.button-link:hover{
+    color: white;
+    border: 2px solid tomato;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+}
+/* creation section */
+.creation{
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+.team-img img{
+    width: 85%;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+}
+.team-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.creation-h{
+    color: tomato;
+}
+.team-text p{
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.button-link-2{
+    text-decoration: none;
+    border: 3px solid tomato;
+    padding: 8px 17px;
+    background-color: tomato;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.button-link-2:hover{
+    color: rgb(8, 8, 8);
+    border: 2px solid tomato;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+}
+/* contact area */
+.contact-section{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+    
+}
+.google-map-area{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.location-area{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.location-area span{
+    color: tomato;
+}
+.contact-first{
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.contact-h{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.input-field{
+    width: 500px;
+    height: 45px;
+    /* margin-top: 35px; */
+    padding-left: 10px;
+    border: 2px solid #FF6347;
+    border-radius: 14px;
+    outline: none;
+    margin-bottom: 35px;
+}
+.message-area{
+    height: 250px;
+    padding-top: 10px;
+}
+.submit-btn{
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid #FF6347;
+    padding: 5px 15px;
+    background-color: #FF6347;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    
+}
+
+/* Footer area */
+.footer-area{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(7, 1, 1, 0.938);
+    color: rgb(189, 182, 182);
+}
+.footer-h2{
+    position: relative;
+    top: 15px;
+}
+.footer-h2 span{
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
